@@ -4,10 +4,10 @@ import { Inter } from '@next/font/google'
 
 // const inter = Inter({ subsets: ['latin'] })
 
-export default function Issuer() {
+export default function Collector() {
     return (
         <main>
-            <h1>Issuer</h1>
+            <h1>Collector</h1>
         </main>
     )
 }
