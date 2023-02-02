@@ -1,0 +1,33 @@
+{
+    "name": "@mementodao/monorepo",
+    "private": true,
+    "workspaces": ["apps/*", "configs/*", "libs/*"],
+    "scripts": {
+        "clean": "git clean -fXd $npm_package_cleanExcludePattern",
+        "lint": "turbo run lint",
+        "format": "prettier $npm_package_prettierOptions .",
+        "build:web": "turbo run build --filter=web",
+        "dev:web": "pnpm -F web dev",
+        "start": "pnpm -F web start"
+    },
+    "devDependencies": {
+        "@trunkio/launcher": "1.2.3",
+        "eslint-config-custom": "workspace:*",
+        "prettier-config": "workspace:*",
+        "turbo": "1.7.2"
+    },
+    "packageManager": "pnpm@7.26.3",
+    "prettier": "prettier-config",
+    "prettierOptions": "-c -w --cache --ignore-path configs/prettier-config/.prettierignore",
+    "eslintConfig": {
+        "root": true,
+        "extends": ["custom"],
+        "settings": {
+            "next": {
+                "rootDir": ["apps/web"]
+            }
+        }
+    },
+    "eslintIgnorePath": "configs/eslint-ignore/.eslintignore",
+    "cleanExcludePattern": "-e !.env* -e !.vercel -e !.turbo"
+}
