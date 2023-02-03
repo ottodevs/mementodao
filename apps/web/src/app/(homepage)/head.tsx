@@ -2,9 +2,9 @@ export default function Head() {
     return (
         <>
             <title>Memento DAO</title>
-            <meta content='width=device-width, initial-scale=1' name='viewport' />
+            <meta name='viewport' content='width=device-width, initial-scale=1' />
             <meta name='description' content='Memento DAO - Home' />
-            <link rel='icon' href='/favicon.ico' />
+            <link rel='icon' href='/zoomed-logo.svg' />
         </>
     )
 }
