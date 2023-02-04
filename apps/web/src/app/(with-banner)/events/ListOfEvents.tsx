@@ -8,7 +8,7 @@ interface Event {
 }
 
 const fetchEvents = async () => {
-    await new Promise(resolve => setTimeout(resolve, 2000))
+    // await new Promise(resolve => setTimeout(resolve, 2000))
 
     const res = await fetch('https://jsonplaceholder.typicode.com/posts', {
         next: {

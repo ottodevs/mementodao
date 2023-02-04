@@ -1,7 +1,5 @@
-// 'use client'
-
 import Link from 'next/link'
-import ConnectKit from './ConnectKit'
+import { ConnectKitButton } from 'connectkit'
 import styles from './Navigation.module.css'
 
 const links = [
@@ -22,8 +20,8 @@ export function Navigation() {
                             <Link href={route}>{label}</Link>
                         </li>
                     ))}
+                    <ConnectKitButton />
                 </ul>
-                <ConnectKit />
             </nav>
         </header>
     )
