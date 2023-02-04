@@ -29,5 +29,24 @@
         }
     },
     "eslintIgnorePath": "configs/eslint-ignore/.eslintignore",
-    "cleanExcludePattern": "-e !.env* -e !.vercel -e !.turbo"
+    "cleanExcludePattern": "-e !.env* -e !.vercel -e !.turbo",
+    "pnpm": {
+        "allowedDeprecatedVersions": {
+            "@json-rpc-tools/provider": "*",
+            "@json-rpc-tools/types": "*",
+            "@json-rpc-tools/utils": "*",
+            "@walletconnect/client": "*",
+            "@walletconnect/ethereum-provider": "*",
+            "@walletconnect/mobile-registry": "*",
+            "@walletconnect/qrcode-modal": "*",
+            "@walletconnect/types": "*",
+            "eth-sig-util": "*",
+            "safe-event-emitter": "*"
+        },
+        "peerDependencyRules": {
+            "allowedVersions": {
+                "wagmi": "0.11"
+            }
+        }
+    }
 }
