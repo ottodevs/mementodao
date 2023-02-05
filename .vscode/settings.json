@@ -65,7 +65,8 @@
     // Configure editor settings to be overridden for [yaml] language.
     "files.associations": {
         "*.yaml": "yaml",
-        "*.yml": "yaml"
+        "*.yml": "yaml",
+        "*.css": "tailwindcss"
     },
     "[yaml]": {
         "editor.insertSpaces": true,
@@ -74,5 +75,11 @@
     },
     "[svg]": {
         "editor.defaultFormatter": "jock.svg"
+    },
+    "editor.quickSuggestions": {
+        "strings": true
+    },
+    "markdownlint.config": {
+        "whitespace": false
     }
 }
