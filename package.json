@@ -32,6 +32,8 @@
     "cleanExcludePattern": "-e !.env* -e !.vercel -e !.turbo",
     "pnpm": {
         "allowedDeprecatedVersions": {
+            "@ensdomains/ens": "*",
+            "@ensdomains/resolver": "*",
             "@json-rpc-tools/provider": "*",
             "@json-rpc-tools/types": "*",
             "@json-rpc-tools/utils": "*",
@@ -40,13 +42,32 @@
             "@walletconnect/mobile-registry": "*",
             "@walletconnect/qrcode-modal": "*",
             "@walletconnect/types": "*",
+            "cids": "*",
+            "debug": "*",
             "eth-sig-util": "*",
-            "safe-event-emitter": "*"
+            "fsevents": "*",
+            "har-validator": "*",
+            "mkdirp-promise": "*",
+            "multibase": "*",
+            "multicodec": "*",
+            "request-promise-native": "*",
+            "request": "*",
+            "safe-event-emitter": "*",
+            "testrpc": "*",
+            "uuid": "*"
         },
         "peerDependencyRules": {
             "allowedVersions": {
                 "wagmi": "0.11"
-            }
+            },
+            "ignoreMissing": [
+                "@nomiclabs/hardhat-web3",
+                "web3-core-helpers",
+                "web3-core-promievent",
+                "web3-eth-abi",
+                "web3-utils",
+                "web3"
+            ]
         }
     }
 }

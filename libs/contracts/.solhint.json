@@ -1,0 +1,16 @@
+{
+    "extends": "solhint:recommended",
+    "plugins": ["prettier"],
+    "rules": {
+        "compiler-version": ["error", "^0.8.0"],
+        "func-visibility": ["warn", { "ignoreConstructors": true }],
+        "prettier/prettier": "error"
+    },
+    "skipFiles": [
+        "test/fuzzing/KeepersCounterEchidnaTest.sol",
+        "test/LinkToken.sol",
+        "test/MockOracle.sol",
+        "test/MockV3Aggregator.sol",
+        "test/VRFCoordinatorV2Mock.sol"
+    ]
+}
