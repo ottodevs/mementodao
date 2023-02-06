@@ -19,7 +19,7 @@ const events = [
         target: '400',
         deadline: '5/12/2023',
         amountCollected: '50',
-        image: '/photo11.jpeg',
+        image: 'https://mementodao.org/photo11.jpeg',
     },
     {
         id: 1,
@@ -28,7 +28,7 @@ const events = [
         target: '400',
         deadline: '5/12/2023',
         amountCollected: '50',
-        image: '/photo11.jpeg',
+        image: 'https://mementodao.org/photo11.jpeg',
     },
     {
         id: 2,
@@ -37,7 +37,7 @@ const events = [
         target: '400',
         deadline: '5/12/2023',
         amountCollected: '50',
-        image: '/photo11.jpeg',
+        image: 'https://mementodao.org/photo11.jpeg',
     },
     {
         id: 3,
@@ -46,7 +46,7 @@ const events = [
         target: '400',
         deadline: '5/12/2023',
         amountCollected: '50',
-        image: '/photo11.jpeg',
+        image: 'https://mementodao.org/photo11.jpeg',
     },
     {
         id: 4,
@@ -55,7 +55,7 @@ const events = [
         target: '400',
         deadline: '5/12/2023',
         amountCollected: '50',
-        image: '/photo11.jpeg',
+        image: 'https://mementodao.org/photo11.jpeg',
     },
     {
         id: 5,
@@ -64,7 +64,7 @@ const events = [
         target: '400',
         deadline: '5/12/2023',
         amountCollected: '50',
-        image: '/photo11.jpeg',
+        image: 'https://mementodao.org/photo11.jpeg',
     },
     {
         id: 6,
@@ -73,7 +73,7 @@ const events = [
         target: '400',
         deadline: '5/12/2023',
         amountCollected: '50',
-        image: '/photo11.jpeg',
+        image: 'https://mementodao.org/photo11.jpeg',
     },
     {
         id: 7,
@@ -82,7 +82,7 @@ const events = [
         target: '400',
         deadline: '5/12/2023',
         amountCollected: '50',
-        image: '/photo11.jpeg',
+        image: 'https://mementodao.org/photo11.jpeg',
     },
     {
         id: 8,
@@ -91,7 +91,7 @@ const events = [
         target: '400',
         deadline: '5/12/2023',
         amountCollected: '50',
-        image: '/photo11.jpeg',
+        image: 'https://mementodao.org/photo11.jpeg',
     },
     {
         id: 9,
@@ -100,7 +100,7 @@ const events = [
         target: '400',
         deadline: '5/12/2023',
         amountCollected: '50',
-        image: '/photo11.jpeg',
+        image: 'https://mementodao.org/photo11.jpeg',
     },
     {
         id: 10,
@@ -109,7 +109,7 @@ const events = [
         target: '400',
         deadline: '5/12/2023',
         amountCollected: '50',
-        image: '/photo11.jpeg',
+        image: 'https://mementodao.org/photo11.jpeg',
     },
     {
         id: 11,
@@ -118,7 +118,7 @@ const events = [
         target: '400',
         deadline: '5/12/2023',
         amountCollected: '50',
-        image: '/photo11.jpeg',
+        image: 'https://mementodao.org/photo11.jpeg',
     },
 ]
 

@@ -39,7 +39,7 @@ export function Hero() {
                         <Image
                             width='600'
                             height='600'
-                            src='/hero2.png'
+                            src='https://mementodao.org/hero2.png'
                             loading='lazy'
                             alt='memories abstract photo'
                             className='w-full h-full object-cover object-center'
@@ -50,7 +50,7 @@ export function Hero() {
                         <Image
                             width='600'
                             height='600'
-                            src='/hero5.png'
+                            src='https://mementodao.org/hero5.png'
                             loading='lazy'
                             alt='memories abstract photo'
                             className='w-full h-full object-cover object-center'
