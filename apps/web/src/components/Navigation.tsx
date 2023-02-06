@@ -1,12 +1,14 @@
 import Link from 'next/link'
-import { ConnectKitButton } from 'connectkit'
+// import { ConnectKitButton } from 'connectkit'
 import Image from 'next/image'
 
+// Hopefully linked to different sections of the home SPA
 const links = [
-    { label: 'Events', route: '/events' },
-    { label: 'Issuer', route: '/issuer' },
-    { label: 'Collector', route: '/collector' },
-    { label: 'DAO', route: '/dao' },
+    { label: 'Events', route: '#events' },
+    { label: 'Issuers', route: '#issuers' },
+    { label: 'Collectors', route: '#collectors' },
+    { label: 'DAO', route: '#dao' },
+    { label: 'Curation', route: '#curation' },
 ]
 
 export function Navigation() {
@@ -23,14 +25,12 @@ export function Navigation() {
                 </div>
                 <ul className='navbar-center'>
                     {links.map(({ label, route }) => (
-                        <li className='navbar-item text-sm antialiased' key={route}>
+                        <li className='navbar-item text-sm antialiased min-w-fit' key={route}>
                             <Link href={route}>{label}</Link>
                         </li>
                     ))}
                 </ul>
-                <div className='navbar-end'>
-                    <ConnectKitButton />
-                </div>
+                <div className='navbar-end'>{/* <ConnectKitButton /> */}</div>
             </nav>
         </header>
     )

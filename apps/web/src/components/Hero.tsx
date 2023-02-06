@@ -20,13 +20,15 @@ export function Hero() {
                         the power of FileCoin.
                     </p>
                     <div className='flex flex-col sm:flex-row sm:justify-center lg:justify-start gap-2.5'>
-                        <a href='#' className='btn btn-lg btn-secondary'>
+                        <Link href='/events' className='btn btn-lg btn-secondary'>
                             Start now
-                        </a>
+                        </Link>
 
-                        <a href='#' className='btn btn-lg text-content1'>
-                            Take tour
-                        </a>
+                        <span className='tooltip tooltip-top' data-tooltip='Coming soon™'>
+                            <Link href='#' className='btn btn-lg text-content1'>
+                                Take tour
+                            </Link>
+                        </span>
                     </div>
                 </div>
                 {/* <!-- content - end --> */}
