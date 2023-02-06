@@ -1,6 +1,7 @@
 {
     "name": "@mementodao/monorepo",
     "private": true,
+    "license": "ISC",
     "workspaces": ["apps/*", "configs/*", "libs/*"],
     "scripts": {
         "clean": "git clean -fXd $npm_package_cleanExcludePattern",
