@@ -13,7 +13,7 @@
         "fuzzing": "docker run -it --rm -v $PWD:/src trailofbits/eth-security-toolbox",
         "lint": "solhint 'contracts/**/*.sol'",
         "node": "hardhat node",
-        "postinstall": "# [disabled until needed] pnpm compile",
+        "postinstall": "pnpm compile",
         "slither": "slither ./src",
         "test:watch": "nodemon -e ts,sol -w contracts -w test --exec pnpm test",
         "test": "hardhat test",
@@ -37,6 +37,7 @@
         "@typescript-eslint/parser": "5.50.0",
         "chai": "^4.2.0",
         "dotenv": "16.0.3",
+        "erc4973": "0.5.0",
         "eslint": "8.33.0",
         "ethers": "^5.4.7",
         "hardhat": "^2.11.0",
@@ -53,6 +54,8 @@
     },
     "dependencies": {
         "@openzeppelin/contracts": "4.8.1",
+        "@openzeppelin/contracts-upgradeable": "4.8.1",
+        "@openzeppelin/hardhat-upgrades": "1.22.1",
         "@zondax/filecoin-solidity": "0.5.0-beta.1"
     },
     "eslintConfig": {
