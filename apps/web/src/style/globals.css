@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+    .filter-active {
+        filter: invert(49%) sepia(100%) saturate(4641%) hue-rotate(340deg) brightness(95%) contrast(97%);
+    }
+
+    .filter-inactive {
+        filter: invert(40%) sepia(0%) saturate(625%) hue-rotate(196deg) brightness(95%) contrast(81%);
+    }
+}
+
 html,
 body {
     text-rendering: optimizeLegibility;
